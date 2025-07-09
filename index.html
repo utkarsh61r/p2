@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8d56c6875a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="image/Screenshot 2025-07-06 135947.png" class="logo">
+                <ul id="sidemenu">
+                    <li> <a href='#header'>Home</a></li> 
+                    <li><a href='#about'>About</a></li>
+                    <li><a href='#services'>Service</a></li>
+                    <li> <a href='#porfolio'>Portfolio</a></li>
+                    <li> <a href='#contact'>Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi,I'm <span>Utkarsh</span><br> from India</h1>
+        </div>
+         </div>
+    </div>
+    <div id="about">
+     <div class="container"></div>   
+    </div>
+    <!-- ----------about ---------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+            <div class="about-col-1">
+                <img src="image/WhatsApp Image 2025-07-06 at 23.33.56_8eb58d16.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-tittle">About Me</h1>
+                <p>Hi, I'm Utkarsh Upadhyay, a passionate MERN stack web developer dedicated to building modern, responsive, and high-performance web applications. I specialize in turning ideas into fully functional digital products using technologies like MongoDB, Express.js, React, and Node.js. Always eager to learn and grow, I enjoy solving real-world problems through clean code and user-friendly design.</p>
+           <div class="tab-tittle">
+            <p class="tab-links  active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links"onclick="opentab('experience')">Experience</p>
+            <p class="tab-links"onclick="opentab('education')">Education</p>
+           </div>
+           <div class="tab-contents active-tab" id="skills">
+           <ul>
+            <li><span>UI/UX</span><br>Designing Web interface</li>
+            <li><span>Web Develpment</span><br>Web Application Design</li>
+            <li><span>Version Control</span><br>Code change tracking system</li>
+           </ul>
+           </div> 
+           <div class="tab-contents" id="experience">
+           <ul>
+            <li><span>Jan 2025 – Feb 2025</span><br>Local Business Website </li>
+            <li><span> Nov 2024 – Dec 2024</span><br>CodeCraft Solutions</li>
+            <li><span>June 2024</span><br>Task Trek</li>
+           </ul>
+           </div>
+           <div class="tab-contents" id="education">
+ <ul>
+            <li><span>Sep 2022 – June 2026</span><br>Undergraduate </li>
+            <li><span> May 2020 – Feb 2022</span><br>Intermediate</li>
+            <li><span>June 2020</span><br>High School</li>
+           </ul>
+           </div>
+            </div>
+        </div>
+    </div>
+    <!-- -------------------services------------ -->
+     <div id="services">
+        <div class="container">
+             <h1 class="sub-tittle">My Services</h1>
+             <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I design modern, responsive websites that are fast, user-friendly, and SEO-ready. From personal portfolios and landing pages to business sites and blogs, I focus on clean UI/UX, smooth animations.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>I craft clean, user-focused UI/UX designs that deliver smooth and intuitive experiences. From wireframes to high-fidelity prototypes, I design interfaces that are visually appealing, easy to navigate, and tailored to your brand.</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pencil"></i>
+                    <h2>Frontend Development</h2>
+                    <p> build fast, interactive, and scalable frontends using modern frameworks like React.js. My code is clean, optimized, and responsive across all devices. I focus on performance, accessibility, and seamless integration with back-end APIs to deliver smooth, production-ready user interfaces.</p>
+                    <a href="#">Learn More</a>
+                </div>
+             </div>
+        </div>
+     </div>
+     <!-- ----------------porfolio----------->
+      <div id="porfolio">
+        <div class="container">
+             <h1 class="sub-tittle">My Work</h1>
+             <div class="work-list">
+                <div class="work">
+                    <img src="image/work-1.png" >
+                    <div class="layer">
+                        <h3>Rentify</h3>
+                        <p>A marketplace for landlords to list properties and for users to book or inquire about rentals.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-2.png" >
+                    <div class="layer">
+                        <h3>Spotify Clone</h3>
+                        <p> A full-stack music streaming platform where users can browse, play, and manage songs and playlists—similar to Spotify.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-3.png" >
+                    <div class="layer">
+                        <h3>Local Mart</h3>
+                        <p> A marketplace web app where local vendors can post products and users can browse/purchase them.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+             </div>
+             <a href="#" class="btn">See More</a>
+        </div>
+      </div>
+      <!-- --------------------contact -->
+       <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-tittle">Contact Me</h1>
+                <p><i class="fa-solid fa-envelope"></i>upadhyayutkarsh1614@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9936262305</p>
+                <div class="social-icon">
+                    <a href="https://www.instagram.com/_utkarshhh_911/"><i class="fa-brands fa-square-instagram"></i></a>
+                      <a href="https://x.com/utkarsh_1601"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/utkarsh-upadhyay-135a34260/"><i class="fa-brands fa-linkedin"></i></a>
+                          <a href="https://github.com/utkarsh61r"><i class="fa-brands fa-square-github"></i></a>
+                </div>
+                <a href="image/resume utkarshupadhyay.pdf" download="" class="btn btn2">Download CV</a>
+                </div> 
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                         <input type="email" name="Email" placeholder="Your email" required>
+                          <textarea name="Message" rows="6" placeholder ="Your Message"></textarea>
+                          <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>   
+       </div>
+       </div>
+       <div class="copyright">
+        <p>Copyright <i class="fa-solid fa-copyright"></i>Utkarsh Upadhyay 2025</p>
+       </div>
+       </div>
+    <script src="script.js" > </script>
+</body>
+</html> 
