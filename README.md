@@ -1,3 +1,5 @@
+<img width="1900" height="926" alt="image" src="https://github.com/user-attachments/assets/1a6fb03c-2bc7-4c0f-9b45-91463a12f685" />
+
 🌐 Personal Portfolio Website
 
 A responsive and interactive personal portfolio website built using HTML, CSS, and JavaScript.
